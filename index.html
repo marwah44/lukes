@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Shop Landing Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+  <div class="logo">
+  <img src="logo.png" alt="Luke's Coffee Logo" />
+</div>
+
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+        <li><a href="#menu">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Luke's diner</h1>
+    <p>Your daily dose of fresh coffee and cozy vibes.</p>
+    <button class="btn" onclick="alert('Order Placed!')">Order Now</button>
+  </div>
+  <div class="hero-image">
+    <img src="lucks.png" alt="Coffee Cup">
+  </div>
+</section>
+
+<!-- Coffee Menu Section -->
+<section id="menu" class="menu">
+  <h2>Our Services</h2>
+  <div class="menu-grid">
+    <div class="card">
+      <img src="coffee1.jpg" alt="Espresso" class="card-img">
+      <h3>Tea</h3>
+      <p>$3.50</p>
+    </div>
+    <div class="card">
+      <img src="coffee2.jpg" alt="Cappuccino" class="card-img">
+      <h3>Ice Coffee</h3>
+      <p>$4.00</p>
+    </div>
+    <div class="card">
+      <img src="coffee3.jpg" alt="Latte" class="card-img">
+      <h3>Frappuccino</h3>
+      <p>$4.50</p>
+    </div>
+    <div class="card">
+      <img src="coffee7.jpg" alt="Mocha" class="card-img">
+      <h3>Hot Chocolate</h3>
+      <p>$5.00</p>
+    </div>
+    <div class="card">
+      <img src="coffee5.jpg" alt="Americano" class="card-img">
+      <h3>Nescafé</h3>
+      <p>$3.00</p>
+    </div>
+    <div class="card">
+      <img src="pancake2.jpg" alt="Macchiato" class="card-img">
+      <h3>Pancake</h3>
+      <p>$4.20</p>
+    </div>
+      <div class="card">
+      <img src="pie.jpg" alt="Macchiato" class="card-img">
+      <h3>Pie</h3>
+      <p>$4.20</p>
+    </div>
+        <div class="card">
+        <img src="Croissant.jpg" alt="Macchiato" class="card-img">
+        <h3>Croissant</h3>
+        <p>$4.20</p>
+  </div>
+    <div class="card">
+      <img src="pie2.jpg" alt="Macchiato" class="card-img">
+      <h3>Apple Pie</h3>
+      <p>$4.20</p>
+    </div>
+      <div class="card">
+      <img src="buger.jpg" alt="Macchiato" class="card-img">
+      <h3>Burger</h3>
+      <p>$4.20</p>
+    </div>
+</section>
+
+
+
+
+  <!-- About Section -->
+<section id="about" class="about">
+  <div class="overlay">
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="sign.png" alt="Coffee Beans">
+      </div>
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          At Luke's Coffee, we serve freshly brewed coffee made from the finest
+          beans. Our cozy shop is the perfect place to relax and enjoy your
+          favorite dish.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="menu.jpg" alt="Coffee Cup">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Luke's Coffee. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
